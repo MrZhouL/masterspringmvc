@@ -1,10 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="simplelayout :: common_header(~{::title},~{})">
+    <title>检索用户</title>
+
 </head>
-<body>
-$END$
+<body th:replace="simplelayout :: common_body(~{},~{:: div})">
+<div class="row">
+    <h4 class="indigo-text center">Please enter a search term</h4>
+    <div id="errorMessage" class="card-panel red lighten-2" th:if="${error}">
+        <span class="card-title" th:text="${error}"></span>
+    </div>
+    <form action="/postSearch" method="post" class="col s12">
+        <div class="row center">
+            <div class="input-field col s6 offset-s3">
+                <i class="mdi-action-search prefix"></i>
+                <input id="search" name="search" type="text"
+                       class="validate"/>
+                <label for="search">Search</label>
+            </div>
+        </div>
+    </form>
+</div>
 </body>
 </html>

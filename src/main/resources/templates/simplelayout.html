@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http:www.thymeleaf.org">
+<html lang="en" xmlns:th="http:www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 
 <head th:fragment = common_header(title,link)>
     <meta charset="UTF-8">
@@ -10,9 +10,11 @@
 
     <th:block th:replace="${link}" />
 </head>
-<body th:fragment = common_body(script,div)>
+<body>
 
-    <div th:replace="${div}"></div>
+    <section layout:fragment="content">
+        <p>Page content goes here</p>
+    </section>
 
     <script src="/webjars/jquery/2.1.4/jquery.js"></script>
     <script src="/webjars/materializecss/0.96.0/js/materialize.js"></script>

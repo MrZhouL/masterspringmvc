@@ -1,10 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Your profile</title>
+    <link href="/webjars/materializecss/0.96.0/css/materialize.css" type="text/css" rel="stylesheet"
+          media="screen,projection"/>
 </head>
 <body>
-$END$
+<ul id="lang-dropdown" class="dropdown-content">
+    <li><a href="?lang=en">English</a></li>
+    <li><a href="?lang=zh">中文</a></li>
+</ul>
+<nav>
+    <div class="nav-wrapper indigo">
+        <ul class="right">
+            <li>
+                <a class="dropdown-button" href="#!" data-activates="lang-dropdown">
+                    <i class="mdi-action-language right"></i>
+                    Lang
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="row">
+    <h2 class="indigo-text center" th:text="#{profile.title}">Personal info</h2>
+    <form action="/profile" th:object="${profileForm}" method="post" class="col m8 s12
+   offset-m2">
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="twitterHandle" type="text" th:field="${profileForm.twitterHandle}" th:errorclass="invalid"/>
+                <label for="twitterHandle" th:text="#{twitter.handle}">Last Name</label>
+                <div th:errors="*{twitterHandle}" class="red-text">Error</div>
+            </div>
+            <div class="input-field col s6">
+                <input th:field="${profileForm.email}" id="email" type="text" th:errorclass="invalid"/>
+                <label for="email" th:text="#{email}">Email</label>
+                <div th:errors="*{email}" class="red-text">Error</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="birthDate" type="text" th:field="${profileForm.birthDate}" th:errorclass="invalid"
+                       th:placeholder="${dateFormat}"/>
+                <label for="birthDate" th:text="#{birthdate}" th:placeholder="${dateFormat}">Birth Date</label>
+                <div th:errors="*{birthDate}" class="red-text">Error</div>
+            </div>
+        </div>
+
+        <fieldset class="row">
+            <legend th:text="#{tastes.legend}">What do you like?</legend>
+            <button class="btn teal" type="submit" name="addTaste"
+                    th:text="#{add.taste}">Add taste
+                <i class="mdi-content-add left"></i>
+            </button>
+            <div th:errors="*{tastes}" class="red-text">Error</div>
+            <div class="row" th:each="row,rowStat : *{tastes}">
+                <div class="col s6">
+                    <input type="text" th:field="*{tastes[__${rowStat.index}__]}" th:placeholder="#{taste.placeholder}"/>
+                </div>
+                <div class="col s6">
+                    <button class="btn red" type="submit" name="removeTaste"
+                            th:value="${rowStat.index}" th:text="#{remove}">Remove
+                        <i class="mdi-action-delete right waves-effect"></i>
+                    </button>
+                </div>
+            </div>
+        </fieldset>
+        <div class="row s12">
+            <button class="btn waves-effect waves-light" type="submit"
+                    name="save">Submit
+                <i class="mdi-content-send right"></i>
+            </button>
+        </div>
+    </form>
+</div>
+<script src="/webjars/jquery/2.1.4/jquery.js"></script>
+<script src="/webjars/materializecss/0.96.0/js/materialize.js"></script>
+<script type="text/javascript">
+    $(".dropdown-button").dropdown();
+</script>
 </body>
 </html>

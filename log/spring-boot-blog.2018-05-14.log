@@ -1,0 +1,228 @@
+2018-05-14 15:19:09 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Starting MasterspringmvcApplication on zhouleideMBP with PID 31652 (/Users/zhoulei/GithubApps/masterspringmvc/build/classes/java/main started by zhoulei in /Users/zhoulei/GithubApps/masterspringmvc) 
+2018-05-14 15:19:09 [restartedMain] DEBUG m.MasterspringmvcApplication : 
+ Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE 
+2018-05-14 15:19:09 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ No active profile set, falling back to default profiles: default 
+2018-05-14 15:19:11 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Started MasterspringmvcApplication in 1.96 seconds (JVM running for 106.671) 
+2018-05-14 15:19:18 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Starting MasterspringmvcApplication on zhouleideMBP with PID 31652 (/Users/zhoulei/GithubApps/masterspringmvc/build/classes/java/main started by zhoulei in /Users/zhoulei/GithubApps/masterspringmvc) 
+2018-05-14 15:19:18 [restartedMain] DEBUG m.MasterspringmvcApplication : 
+ Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE 
+2018-05-14 15:19:18 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ No active profile set, falling back to default profiles: default 
+2018-05-14 15:19:20 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Started MasterspringmvcApplication in 1.499 seconds (JVM running for 115.804) 
+2018-05-14 15:23:19 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Starting MasterspringmvcApplication on zhouleideMBP with PID 31663 (/Users/zhoulei/GithubApps/masterspringmvc/build/classes/java/main started by zhoulei in /Users/zhoulei/GithubApps/masterspringmvc) 
+2018-05-14 15:23:19 [restartedMain] DEBUG m.MasterspringmvcApplication : 
+ Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE 
+2018-05-14 15:23:19 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ No active profile set, falling back to default profiles: default 
+2018-05-14 15:23:23 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Started MasterspringmvcApplication in 5.633 seconds (JVM running for 6.232) 
+2018-05-14 15:27:26 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Starting MasterspringmvcApplication on zhouleideMBP with PID 31663 (/Users/zhoulei/GithubApps/masterspringmvc/build/classes/java/main started by zhoulei in /Users/zhoulei/GithubApps/masterspringmvc) 
+2018-05-14 15:27:26 [restartedMain] DEBUG m.MasterspringmvcApplication : 
+ Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE 
+2018-05-14 15:27:26 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ No active profile set, falling back to default profiles: default 
+2018-05-14 15:27:27 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Started MasterspringmvcApplication in 1.776 seconds (JVM running for 249.923) 
+2018-05-14 15:34:59 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Starting MasterspringmvcApplication on zhouleideMBP with PID 31663 (/Users/zhoulei/GithubApps/masterspringmvc/build/classes/java/main started by zhoulei in /Users/zhoulei/GithubApps/masterspringmvc) 
+2018-05-14 15:34:59 [restartedMain] DEBUG m.MasterspringmvcApplication : 
+ Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE 
+2018-05-14 15:34:59 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ No active profile set, falling back to default profiles: default 
+2018-05-14 15:35:00 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Started MasterspringmvcApplication in 0.894 seconds (JVM running for 702.582) 
+2018-05-14 15:41:35 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Starting MasterspringmvcApplication on zhouleideMBP with PID 31663 (/Users/zhoulei/GithubApps/masterspringmvc/build/classes/java/main started by zhoulei in /Users/zhoulei/GithubApps/masterspringmvc) 
+2018-05-14 15:41:35 [restartedMain] DEBUG m.MasterspringmvcApplication : 
+ Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE 
+2018-05-14 15:41:35 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ No active profile set, falling back to default profiles: default 
+2018-05-14 15:41:36 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Started MasterspringmvcApplication in 1.673 seconds (JVM running for 1098.932) 
+2018-05-14 15:41:56 [http-nio-8080-exec-1] ERROR m.aop.ControllerLogAspect : 
+ HV000028: Unexpected exception during isValid call. 
+2018-05-14 15:42:16 [http-nio-8080-exec-6] ERROR m.aop.ControllerLogAspect : 
+ HV000028: Unexpected exception during isValid call. 
+2018-05-14 15:42:54 [http-nio-8080-exec-6] ERROR m.aop.ControllerLogAspect : 
+ HV000028: Unexpected exception during isValid call. 
+2018-05-14 15:42:59 [http-nio-8080-exec-9] ERROR m.aop.ControllerLogAspect : 
+ HV000028: Unexpected exception during isValid call. 
+2018-05-14 15:43:01 [http-nio-8080-exec-1] ERROR m.aop.ControllerLogAspect : 
+ HV000028: Unexpected exception during isValid call. 
+2018-05-14 15:43:09 [http-nio-8080-exec-7] ERROR m.aop.ControllerLogAspect : 
+ HV000028: Unexpected exception during isValid call. 
+2018-05-14 15:46:29 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Starting MasterspringmvcApplication on zhouleideMBP with PID 31663 (/Users/zhoulei/GithubApps/masterspringmvc/build/classes/java/main started by zhoulei in /Users/zhoulei/GithubApps/masterspringmvc) 
+2018-05-14 15:46:29 [restartedMain] DEBUG m.MasterspringmvcApplication : 
+ Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE 
+2018-05-14 15:46:29 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ No active profile set, falling back to default profiles: default 
+2018-05-14 15:46:30 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Started MasterspringmvcApplication in 3.653 seconds (JVM running for 1392.795) 
+2018-05-14 15:51:22 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Starting MasterspringmvcApplication on zhouleideMBP with PID 31663 (/Users/zhoulei/GithubApps/masterspringmvc/build/classes/java/main started by zhoulei in /Users/zhoulei/GithubApps/masterspringmvc) 
+2018-05-14 15:51:22 [restartedMain] DEBUG m.MasterspringmvcApplication : 
+ Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE 
+2018-05-14 15:51:22 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ No active profile set, falling back to default profiles: default 
+2018-05-14 15:51:23 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Started MasterspringmvcApplication in 1.152 seconds (JVM running for 1685.275) 
+2018-05-14 16:01:47 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Starting MasterspringmvcApplication on zhouleideMBP with PID 31663 (/Users/zhoulei/GithubApps/masterspringmvc/build/classes/java/main started by zhoulei in /Users/zhoulei/GithubApps/masterspringmvc) 
+2018-05-14 16:01:47 [restartedMain] DEBUG m.MasterspringmvcApplication : 
+ Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE 
+2018-05-14 16:01:47 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ No active profile set, falling back to default profiles: default 
+2018-05-14 16:01:48 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Started MasterspringmvcApplication in 1.82 seconds (JVM running for 2310.207) 
+2018-05-14 16:03:37 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Starting MasterspringmvcApplication on zhouleideMBP with PID 31772 (/Users/zhoulei/GithubApps/masterspringmvc/build/classes/java/main started by zhoulei in /Users/zhoulei/GithubApps/masterspringmvc) 
+2018-05-14 16:03:37 [restartedMain] DEBUG m.MasterspringmvcApplication : 
+ Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE 
+2018-05-14 16:03:37 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ No active profile set, falling back to default profiles: default 
+2018-05-14 16:03:42 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Started MasterspringmvcApplication in 20.893 seconds (JVM running for 21.602) 
+2018-05-14 16:11:26 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Starting MasterspringmvcApplication on zhouleideMBP with PID 31772 (/Users/zhoulei/GithubApps/masterspringmvc/build/classes/java/main started by zhoulei in /Users/zhoulei/GithubApps/masterspringmvc) 
+2018-05-14 16:11:26 [restartedMain] DEBUG m.MasterspringmvcApplication : 
+ Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE 
+2018-05-14 16:11:26 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ No active profile set, falling back to default profiles: default 
+2018-05-14 16:11:27 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Started MasterspringmvcApplication in 1.723 seconds (JVM running for 487.348) 
+2018-05-14 16:12:12 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Starting MasterspringmvcApplication on zhouleideMBP with PID 31793 (/Users/zhoulei/GithubApps/masterspringmvc/build/classes/java/main started by zhoulei in /Users/zhoulei/GithubApps/masterspringmvc) 
+2018-05-14 16:12:12 [restartedMain] DEBUG m.MasterspringmvcApplication : 
+ Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE 
+2018-05-14 16:12:12 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ No active profile set, falling back to default profiles: default 
+2018-05-14 16:12:17 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Started MasterspringmvcApplication in 5.424 seconds (JVM running for 6.075) 
+2018-05-14 16:15:47 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Starting MasterspringmvcApplication on zhouleideMBP with PID 31793 (/Users/zhoulei/GithubApps/masterspringmvc/build/classes/java/main started by zhoulei in /Users/zhoulei/GithubApps/masterspringmvc) 
+2018-05-14 16:15:47 [restartedMain] DEBUG m.MasterspringmvcApplication : 
+ Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE 
+2018-05-14 16:15:47 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ No active profile set, falling back to default profiles: default 
+2018-05-14 16:15:48 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Started MasterspringmvcApplication in 1.383 seconds (JVM running for 216.97) 
+2018-05-14 16:26:23 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Starting MasterspringmvcApplication on zhouleideMBP with PID 31793 (/Users/zhoulei/GithubApps/masterspringmvc/build/classes/java/main started by zhoulei in /Users/zhoulei/GithubApps/masterspringmvc) 
+2018-05-14 16:26:23 [restartedMain] DEBUG m.MasterspringmvcApplication : 
+ Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE 
+2018-05-14 16:26:23 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ No active profile set, falling back to default profiles: default 
+2018-05-14 16:26:25 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Started MasterspringmvcApplication in 1.843 seconds (JVM running for 853.823) 
+2018-05-14 16:55:04 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Starting MasterspringmvcApplication on zhouleideMBP with PID 31864 (/Users/zhoulei/GithubApps/masterspringmvc/build/classes/java/main started by zhoulei in /Users/zhoulei/GithubApps/masterspringmvc) 
+2018-05-14 16:55:04 [restartedMain] DEBUG m.MasterspringmvcApplication : 
+ Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE 
+2018-05-14 16:55:04 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ No active profile set, falling back to default profiles: default 
+2018-05-14 16:55:08 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Started MasterspringmvcApplication in 7.672 seconds (JVM running for 8.302) 
+2018-05-14 17:21:20 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Starting MasterspringmvcApplication on zhouleideMBP with PID 31864 (/Users/zhoulei/GithubApps/masterspringmvc/build/classes/java/main started by zhoulei in /Users/zhoulei/GithubApps/masterspringmvc) 
+2018-05-14 17:21:20 [restartedMain] DEBUG m.MasterspringmvcApplication : 
+ Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE 
+2018-05-14 17:21:20 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ No active profile set, falling back to default profiles: default 
+2018-05-14 17:21:22 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Started MasterspringmvcApplication in 1.785 seconds (JVM running for 1581.971) 
+2018-05-14 17:22:03 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Starting MasterspringmvcApplication on zhouleideMBP with PID 31967 (/Users/zhoulei/GithubApps/masterspringmvc/build/classes/java/main started by zhoulei in /Users/zhoulei/GithubApps/masterspringmvc) 
+2018-05-14 17:22:03 [restartedMain] DEBUG m.MasterspringmvcApplication : 
+ Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE 
+2018-05-14 17:22:03 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ No active profile set, falling back to default profiles: default 
+2018-05-14 17:22:07 [restartedMain] INFO  m.MasterspringmvcApplication : 
+ Started MasterspringmvcApplication in 5.375 seconds (JVM running for 6.098) 
+2018-05-14 17:37:30 [http-nio-8080-exec-7] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 
+2018-05-14 17:37:39 [http-nio-8080-exec-4] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=zl, email=scorpiozhoulei@126.com, birthDate=2011-11-12, tastes=[]) 
+2018-05-14 17:48:51 [http-nio-8080-exec-2] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 
+2018-05-14 17:48:55 [http-nio-8080-exec-6] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 
+2018-05-14 17:49:06 [http-nio-8080-exec-9] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=2019-11-12, tastes=[]) 
+2018-05-14 18:29:02 [http-nio-8080-exec-5] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 
+2018-05-14 18:29:09 [http-nio-8080-exec-8] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 
+2018-05-14 21:51:03 [http-nio-8080-exec-3] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 
+2018-05-14 21:51:08 [http-nio-8080-exec-7] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=2011-11-12, tastes=[]) 
+2018-05-14 21:51:14 [http-nio-8080-exec-8] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=2019-11-12, tastes=[]) 
+2018-05-14 21:51:30 [http-nio-8080-exec-9] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=15910651340@163.com, birthDate=2019-11-12, tastes=[]) 
+2018-05-14 21:51:35 [http-nio-8080-exec-10] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=zl, email=15910651340@163.com, birthDate=2019-11-12, tastes=[]) 
+2018-05-14 21:51:42 [http-nio-8080-exec-1] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=zl, email=15910651340@163.com, birthDate=2018-11-12, tastes=[]) 
+2018-05-14 21:55:19 [http-nio-8080-exec-3] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=zl, email=15910651340@163.com, birthDate=2018-11-12, tastes=[]) 
+2018-05-14 22:00:53 [http-nio-8080-exec-1] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=zl, email=15910651340@163.com, birthDate=2018-11-12, tastes=[]) 
+2018-05-14 22:01:00 [http-nio-8080-exec-7] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=zl, email=15910651340@163.com, birthDate=null, tastes=[]) 
+2018-05-14 22:03:13 [http-nio-8080-exec-7] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 
+2018-05-14 22:03:46 [http-nio-8080-exec-4] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=2018-01-12, tastes=[]) 
+2018-05-14 22:05:11 [http-nio-8080-exec-2] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 
+2018-05-14 22:05:22 [http-nio-8080-exec-9] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=2018-01-12, tastes=[]) 
+2018-05-14 22:05:34 [http-nio-8080-exec-5] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 
+2018-05-14 22:05:38 [http-nio-8080-exec-3] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 
+2018-05-14 22:05:44 [http-nio-8080-exec-7] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 
+2018-05-14 22:05:50 [http-nio-8080-exec-2] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 
+2018-05-14 22:05:56 [http-nio-8080-exec-8] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=2101-11-11, tastes=[]) 
+2018-05-14 22:08:26 [http-nio-8080-exec-9] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 
+2018-05-14 22:11:10 [http-nio-8080-exec-8] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 
+2018-05-14 22:11:38 [http-nio-8080-exec-7] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 
+2018-05-14 22:11:41 [http-nio-8080-exec-3] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 
+2018-05-14 22:31:54 [http-nio-8080-exec-7] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 
+2018-05-14 22:33:16 [http-nio-8080-exec-8] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 
+2018-05-14 23:31:47 [http-nio-8080-exec-10] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 
+2018-05-14 23:32:07 [http-nio-8080-exec-3] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 
+2018-05-14 23:32:13 [http-nio-8080-exec-4] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 
+2018-05-14 23:34:02 [http-nio-8080-exec-3] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=1998-10-10, tastes=[]) 
+2018-05-14 23:36:50 [http-nio-8080-exec-4] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 
+2018-05-14 23:41:13 [http-nio-8080-exec-3] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[spring, java]) 
+2018-05-14 23:41:32 [http-nio-8080-exec-1] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=zl, email=miss-zl@qq.com, birthDate=1998-10-10, tastes=[spring, java]) 
+2018-05-14 23:51:35 [http-nio-8080-exec-8] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 
+2018-05-14 23:53:45 [http-nio-8080-exec-3] DEBUG m.controller.ProfileController : 
+ add profile Form:ProfileForm(twitterHandle=, email=, birthDate=null, tastes=[]) 

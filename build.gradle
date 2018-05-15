@@ -3,10 +3,12 @@ buildscript {
         springBootVersion = '2.0.2.RELEASE'
     }
     repositories {
+        mavenLocal()
         mavenCentral()
     }
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+        classpath("io.spring.gradle:dependency-management-plugin:0.5.1.RELEASE")
     }
 }
 
@@ -15,16 +17,33 @@ apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
+jar {
+    baseName = 'mesterSpringMvc'
+    version = '0.0.1-SNAPSHOT'
+}
+
 group = 'masterSpringMvc'
 version = '0.0.1-SNAPSHOT'
+
 sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 repositories {
     mavenCentral()
 }
 
 
+bootRun {
+    sourceResources sourceSets.main
+}
+
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.springframework.boot:spring-boot-starter-thymeleaf')
+    compile('org.springframework.boot:spring-boot-devtools')
+    compile('org.webjars:materializecss:0.96.0')
+    compile('org.webjars:jquery:2.1.4')
+    compile "org.projectlombok:lombok:1.16.20"
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
+
