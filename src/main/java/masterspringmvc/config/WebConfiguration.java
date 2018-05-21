@@ -11,6 +11,7 @@
 package masterspringmvc.config;
 
 import masterspringmvc.date.LocalDateFormatter;
+import org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.format.FormatterRegistry;
@@ -33,6 +34,10 @@ import java.time.LocalDate;
 @Configuration
 public class WebConfiguration implements WebMvcConfigurer {
 
+    /**
+     * 自定义格式化注册
+     * @param registry
+     */
     @Override
     public void addFormatters(FormatterRegistry registry) {
         registry.addFormatterForFieldType(LocalDate.class,new LocalDateFormatter());
@@ -43,6 +48,10 @@ public class WebConfiguration implements WebMvcConfigurer {
         return new SessionLocaleResolver();
     }
 
+    /**
+     * 国际化加载拦截 区域信息
+     * @return
+     */
     @Bean
     public LocaleChangeInterceptor localeChangeInterceptor(){
         LocaleChangeInterceptor localeChangeInterceptor = new LocaleChangeInterceptor();
@@ -54,4 +63,8 @@ public class WebConfiguration implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(localeChangeInterceptor());
     }
+
+   /* public EmbeddedWebServerFactoryCustomizerAutoConfiguration configurationCustomizer(){
+        return null;
+    }*/
 }

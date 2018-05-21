@@ -22,6 +22,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
+import java.net.InetAddress;
 import java.util.Locale;
 
 /**
@@ -75,4 +76,13 @@ public class ProfileController {
         return "profilePage";
     }
 
+    @RequestMapping("/profilePageT")
+    public String learnThymeleafToProfilePage(){
+        return "learnthymeleaf/profilePageT";
+    }
+
+    @RequestMapping("/backgroundlayout")
+    public String backgroundlayout(){
+        return "learnthymeleaf/backgroundlayout";
+    }
 }

@@ -12,21 +12,13 @@ package masterspringmvc.gracedemo.controller;
 
 import masterspringmvc.gracedemo.beans.UserBean;
 import masterspringmvc.gracedemo.common.ResultBean;
-import masterspringmvc.gracedemo.exceptions.CheckException;
 import masterspringmvc.gracedemo.services.GracedService;
-import masterspringmvc.gracedemo.utils.ValidateTool;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.validation.BindingResult;
-import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * 〈一句话功能简述〉<br> 
@@ -37,7 +29,6 @@ import java.util.Map;
  * @since 1.0.0
  */
 @Controller
-@RestController
 public class GracedController {
     @Autowired
     private GracedService gracedService;
@@ -49,10 +40,7 @@ public class GracedController {
     }
 
     @RequestMapping("/addUser")
-    private ResultBean addUser(@Valid UserBean user, BindingResult bindingResult){
-        if (bindingResult.hasErrors()){
-            ValidateTool.validateField(bindingResult);
-        }
+    private ResultBean addUser(@Valid UserBean user){
         return new ResultBean(gracedService.addUser(user));
     }
 }

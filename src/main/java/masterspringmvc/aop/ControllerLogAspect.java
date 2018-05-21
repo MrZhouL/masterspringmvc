@@ -10,12 +10,8 @@
  */
 package masterspringmvc.aop;
 
-import org.apache.tomcat.util.ExceptionUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.web.bind.annotation.ControllerAdvice;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * 〈一句话功能简述〉<br> 
@@ -25,16 +21,21 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @create 2018/5/14
  * @since 1.0.0
  */
-/*@ControllerAdvice
+//@ControllerAdvice
 public class ControllerLogAspect {
 
     private static final Logger logger = LoggerFactory.getLogger(ControllerLogAspect.class);
 
-    @ResponseBody
+    /*@ResponseBody
     @ExceptionHandler(Exception.class)
     public Object handleException(Exception e) {
         logger.error(e.getMessage());  // 记录错误信息
         return null;
-    }
+    }*/
 
-}*/
+    /*public static void main(String[] args) throws UnknownHostException {
+        InetAddress localHost = InetAddress.getLocalHost();
+        System.out.println(localHost);
+    }*/
+
+}

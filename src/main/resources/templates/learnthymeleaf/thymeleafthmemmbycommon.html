@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>引用通用资源</title>
+    <th:block th:include="layout/commonResources :: commonCss"></th:block>
+</head>
+<body>
+    <h1>我成功了吗</h1>
+
+    <th:block th:include="layout/commonResources :: commonJs"></th:block>
+</body>
+</html>

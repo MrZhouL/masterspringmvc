@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link th:href="@{/webjars/materializecss/0.96.0/css/materialize.css}" type="text/css" rel="stylesheet"
+          media="screen,projection"/>
+</head>
+<body>
+<div th:replace="learnthymeleaf/fragments/header :: header">
+    sssss
+</div>
+
+<div class="container">
+    <div class="row center">
+        <h2>我是内容</h2>
+
+        <button  class="button blue">点击</button>
+    </div>
+
+    <div th:replace="learnthymeleaf/fragments/footer :: footer"></div>
+</div>
+</body>
+</html>

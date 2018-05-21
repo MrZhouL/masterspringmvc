@@ -40,6 +40,8 @@ public @interface PastLocalDate {
         public void initialize(PastLocalDate past) {
         }
         public boolean isValid(LocalDate localDate, ConstraintValidatorContext context) {
+            //关闭默认的消息方法
+            context.disableDefaultConstraintViolation();
             return localDate == null || localDate.isBefore(LocalDate.now());
         }
     }

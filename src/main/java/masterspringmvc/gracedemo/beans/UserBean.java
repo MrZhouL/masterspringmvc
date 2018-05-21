@@ -24,7 +24,16 @@ import javax.validation.constraints.NotBlank;
  */
 @Data
 public class UserBean {
+
     private Integer id;
-    @NotBlank(message = "userBean.name")
+    @NotBlank(message = "error.userBean.name")
     private String name;
+
+    public UserBean() {
+    }
+
+    public UserBean(Integer id, @NotBlank(message = "error.userBean.name") String name) {
+        this.id = id;
+        this.name = name;
+    }
 }
