@@ -26,8 +26,9 @@
 /nbdist/
 /.nb-gradle/
 
-log
+/log/
 log/*.log
+log/*
 
-*.jpg
-*.png
+pictures/*
+
