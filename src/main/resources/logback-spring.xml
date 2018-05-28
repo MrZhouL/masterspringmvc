@@ -32,8 +32,8 @@
 
     <!-- 其他框架的日志输出 -->
     <property name="LOG_FILE" value="log/spring-boot-blog-tmp.log" />
-    <logger name="org.springframework.web" level="debug"/>
+
     <!-- spring web 包下的 logger, 只输出 INFO 级别的 -->
-    <logger name="org.springframework.boot.web.filter" level="debug"/>
-    <logger name="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver" level="debug" />
+    <logger name="org.springframework.web" level="debug"/>
+    <logger name="org.hibernate" level="info"/>
 </configuration>

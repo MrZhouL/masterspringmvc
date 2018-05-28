@@ -22,7 +22,7 @@ import org.springframework.stereotype.Repository;
  * @since 1.0.0
  */
 @Repository
-public class GracedDao {
+public class GracedDao{
 
     public long addUser(UserBean user) {
         return 1000L;

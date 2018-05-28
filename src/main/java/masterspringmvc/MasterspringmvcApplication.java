@@ -19,15 +19,6 @@ public class MasterspringmvcApplication {
         SpringApplication.run(MasterspringmvcApplication.class, args);
     }
 
-    //Spring i18n 将这些消息转换为适当的错误消息。
-    @Bean(name = "messageSource")
-    public ReloadableResourceBundleMessageSource messageSource(){
-        ReloadableResourceBundleMessageSource resourceBundle = new ReloadableResourceBundleMessageSource();
-
-        resourceBundle.setBasename("classpath:messages");
-        resourceBundle.setDefaultEncoding("UTF-8");
-        return resourceBundle;
-    }
 
     /**
      * tomcatEmbedded这段代码是为了解决，上传文件大于10M出现连接重置的问题。此异常内容GlobalException也捕获不到。

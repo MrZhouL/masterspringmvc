@@ -14,6 +14,7 @@ import masterspringmvc.date.LocalDateFormatter;
 import org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.support.ReloadableResourceBundleMessageSource;
 import org.springframework.format.FormatterRegistry;
 import org.springframework.web.servlet.LocaleResolver;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
@@ -67,4 +68,17 @@ public class WebConfiguration implements WebMvcConfigurer {
    /* public EmbeddedWebServerFactoryCustomizerAutoConfiguration configurationCustomizer(){
         return null;
     }*/
+
+    //Spring i18n 将这些消息转换为适当的错误消息。
+    @Bean(name = "messageSource")
+    public ReloadableResourceBundleMessageSource messageSource(){
+        ReloadableResourceBundleMessageSource resourceBundle = new ReloadableResourceBundleMessageSource();
+
+        resourceBundle.setBasename("classpath:messages");
+        resourceBundle.setDefaultEncoding("UTF-8");
+        return resourceBundle;
+    }
+
+
+
 }

@@ -40,7 +40,7 @@ public class ProfileForm {
     @NotNull
     @PastLocalDate
     @DateTimeFormat
- //   @CnFormatterDate
+    //@CnFormatterDate
     private LocalDate birthDate;
 
     @NotEmpty

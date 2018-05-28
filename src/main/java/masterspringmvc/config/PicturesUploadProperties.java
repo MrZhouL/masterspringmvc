@@ -10,6 +10,7 @@
  */
 package masterspringmvc.config;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.core.io.DefaultResourceLoader;
 import org.springframework.core.io.Resource;
@@ -27,6 +28,14 @@ public class PicturesUploadProperties {
 
     private Resource uploadPath;//上传上传路径
     private Resource anonymousPicture;//匿名用户图片头像
+
+    public PicturesUploadProperties() {
+    }
+
+    public PicturesUploadProperties(Resource uploadPath, Resource anonymousPicture) {
+        this.uploadPath = uploadPath;
+        this.anonymousPicture = anonymousPicture;
+    }
 
     public Resource getUploadPath() {
         return uploadPath;

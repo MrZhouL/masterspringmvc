@@ -14,7 +14,9 @@ import masterspringmvc.gracedemo.beans.UserBean;
 import masterspringmvc.gracedemo.common.ResultBean;
 import masterspringmvc.gracedemo.services.GracedService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -41,6 +43,8 @@ public class GracedController {
 
     @RequestMapping("/addUser")
     private ResultBean addUser(@Valid UserBean user){
+
         return new ResultBean(gracedService.addUser(user));
     }
+
 }

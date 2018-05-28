@@ -10,6 +10,7 @@
  */
 package masterspringmvc.date;
 
+import masterspringmvc.gracedemo.exceptions.CheckException;
 import org.springframework.format.Formatter;
 
 import java.text.ParseException;
@@ -45,10 +46,10 @@ public class LocalDateFormatter implements Formatter<LocalDate> {
 
     public static String getPattern(Locale locale) {
         String localCountry = locale.getCountry();
-        System.out.println(locale.toString());
-        System.out.println(localCountry);
-        System.out.println(Locale.US.getCountry());
-        System.out.println(Locale.SIMPLIFIED_CHINESE.getCountry());
+        //System.out.println(locale.toString());
+        //System.out.println(localCountry);
+        //System.out.println(Locale.US.getCountry());
+        //System.out.println(Locale.SIMPLIFIED_CHINESE.getCountry());
         if (Locale.US.getCountry().equals(localCountry)){
             return US_PATTERN;
         }else if(Locale.SIMPLIFIED_CHINESE.getCountry().equals(localCountry)){
